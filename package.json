@@ -1,15 +1,16 @@
 {
   "name": "tea-test-69420",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Test program for the Tea Testnet",
-  "main": "SimulateFunction.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/monatheoctocat/my_package.git"
-  },  
-  "author": "",
-  "license": "ISC"
-}
+  "repository": "github:cabamooo/tea-test",
+  "author": "cabamooo",
+  "license": "ISC",
+	"dependencies": {
+    "mocha": "mochajs/mocha#4727d357ea",
+    "tea-test-42069": "^1.0.0"
+	}
+  }
